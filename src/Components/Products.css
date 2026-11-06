@@ -1,0 +1,7 @@
+.Produts-card{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}

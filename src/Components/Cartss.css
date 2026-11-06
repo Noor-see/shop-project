@@ -1,0 +1,24 @@
+h1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    font-size: clamp(48px , 8vw , 110px);
+    font-weight: 800;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    position: relative;
+
+    background: linear-gradient(90deg, #334155 , #0ea5a4);
+    background-clip:'text';
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.carts-product{
+    display:grid;
+    gap: 35px;
+}

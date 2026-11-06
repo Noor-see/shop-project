@@ -1,0 +1,55 @@
+.show-product{
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(180deg,#25294F 0%,#34358B 100%);
+    border-radius: 20px;
+    padding: 14px;
+}
+
+.show-product .product-imagee{    
+    width: 100%;
+    height:200px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: width 0.4s ease,
+    margin 0.4s ease,
+    height 0.4s ease;
+
+}
+
+.show-product:hover{
+    background: linear-gradient(135deg,#5436A5 0%,#B83FAD 55%,#E15BAF 100%);
+}
+
+.show-product:hover .product-imagee{
+    width: calc(100% + 28px);
+    height: 250px;
+    margin-top: -14px;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+.show-product .product-titlee{
+    min-height: 25px;
+
+    color:#C4B5FD;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+.show-product .product-ratee{
+    color: #FB923C;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: small;
+}
+
+.show-product .product-pricee{
+    color:#A78BFA;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+
+}
